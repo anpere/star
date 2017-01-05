@@ -28,7 +28,7 @@ if __name__ == '__main__':
     current_id = 0
     for i in range(args.num):
         d.line([id_to_cart(current_id), id_to_cart(current_id+args.inter)], 'black')
-        plot_point(current_id, d)
+        plot_point(i, d)
         current_id += args.inter
     blank.show()
     blank.save(args.name+".png", "PNG")

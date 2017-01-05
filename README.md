@@ -7,5 +7,8 @@ we succeed from point to point.
 --num specifies number of points in the star.
 --inter specifies the intervals at which we succeed from point to point
 --name specifies the name of the file to save as
-'python star.py --num 5 --inter 2 --name traditional' produces:
-![Alt text](traditional.png "Optional title")
+`python star.py --num 5 --inter 2 --name traditional` produces:
+![Alt text](traditional.png "5-sided star")
+
+17 sided star at intervals of 5
+![Alt text](17-5.png "5-sided star")
